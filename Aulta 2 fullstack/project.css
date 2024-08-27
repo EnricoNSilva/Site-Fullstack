@@ -1,0 +1,14 @@
+#primeira_linha{
+    text-align: center;
+    font-size: 25pt;
+    font-style: inherit;
+}
+body{
+    background-color: burlywood;
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color:rgb(255, 145,0)
+}
