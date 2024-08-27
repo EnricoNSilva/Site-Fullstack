@@ -1,0 +1,26 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+.video{
+    background-color: bisque;
+}
+#h1{
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+#p1{
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+ul{
+    font-size: 14pt;
+    font-style: oblique;
+}
+div:hover{
+    color:chocolate;
+}
+a:visited{
+    color: coral;
+}
