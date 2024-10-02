@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adivinhação</title>    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="stylelab.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da advinhação</h1>
+        <p>Tente advinhar o número entre 0 e 99!</p>
+        <input type="number" id="num" placeholder="Digite seu palpite">
+        <input type="button" value="Enviar" onclick="verificador()" id="botao">
+
+            <h2 id="result"></h2>
+
+        <div class="tentativas">
+            <div>
+                <h2> Tentativas menores:</h2>
+                <p id="peq"></p>
+            </div>
+            <div>
+                <h2> Tentativas maiores:</h2>
+                <p id="gran"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src='scriptlab.js' type="text/javascript"></script>
+</body>

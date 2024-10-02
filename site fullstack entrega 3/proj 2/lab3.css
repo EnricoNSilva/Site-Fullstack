@@ -1,0 +1,131 @@
+body{
+    background-color:lightgray
+}
+.textos_introd{
+    color: indigo;
+    text-align: center;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 20pt;
+}
+.livros{
+    text-align: center;
+}
+#livro1{
+    margin-left: 15%;
+    margin-right: 2%;
+}
+#livro2{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#livro3{
+    margin-left: 2%;
+    margin-right: 15%;
+}
+#yt{
+    margin-left: 29%;
+    margin-right: 2%;
+}
+#maps{
+    margin-left: 2%;
+    margin-right: 29%;
+}
+table{
+    margin-left: 40%;
+    text-align: center;
+    border-style: dashed;
+    border-color:red;
+}
+td{
+    border:solid 1pt red;
+    
+}
+#nome{
+    color: red;
+}
+#email{
+    color: red;
+}
+.consulta{
+    background-color: yellow;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+a{
+    color: darkred;
+}
+a:hover{
+    color: darkred;
+}
+#titulo{
+    text-align: center;
+    color:darkgreen ;
+    font-size: 40pt;
+    margin-top: 50pt;
+}
+.topo{
+    background-color: bisque;
+    border: solid 2pt darkblue;
+    height: 150pt;
+}
+#imgc{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+#imgjv{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.links{
+    background-color:skyblue;
+    height: 40pt;
+}
+#HOME{
+    position: absolute;
+    top: 175pt;
+    left: 300pt;
+}
+#Livros{
+    position: absolute;
+    top: 175pt;
+    left: 450pt;
+}
+#videos{
+    position: absolute;
+    top: 175pt;
+    left: 600pt;
+}
+#contatos{
+    position: absolute;
+    top: 175pt;
+    left: 750pt;
+}
+footer{
+    background-color: bisque;
+}
+footer > P{
+font-family: 'Comic Sans MS';
+font-size: 15pt;
+line-height: 200px;
+text-align: center;
+}
+footer >  img.imghtml{
+    position: absolute;
+    top: 1400pt ;
+    width: 100pt;
+    height: 100pt;
+}
+
+footer > img.imgcss {
+    position: absolute;
+    top: 1400pt ;
+    right: 15pt;
+    width: 80pt;
+    height: 100pt;
+}

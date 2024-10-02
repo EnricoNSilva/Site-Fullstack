@@ -1,0 +1,22 @@
+#primeira_linha{
+    text-align: center;
+    font-size: 25pt;
+}
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color:rgb(255, 145,0)
+}
+#entre_links{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+table{
+    font-size: large;
+}
